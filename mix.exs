@@ -37,8 +37,8 @@ defmodule Moip.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.11.1"},
-      {:poison, "~> 3.0"},
+      {:httpoison, "~> 0.10 or ~> 0.11.1"},
+      {:poison, "~> 2.0 or ~> 3.0"},
       {:secure_random, "~> 0.5"},
       {:brcpfcnpj, "~> 0.1.0",only: :test},
       {:faker, "~> 0.8", only: :test},
